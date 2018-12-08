@@ -38,4 +38,5 @@ fn main() {
     let mut arr2: [i8;10];
     arr2 = [1,2,3,4,5,6,7,8,9,0];
     println!("The value of arr2 is {:?}", arr2.len());
+
 }
