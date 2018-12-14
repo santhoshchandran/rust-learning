@@ -31,10 +31,13 @@ fn main() {
     println!("The value of x is {}", tup.0);
 
     let mut arr = [21,34,4354,565,676];
+    
     println!("The value of arr is {:?}", arr);
     println!("The value of arr 0 is {}", arr[0]);
+    
     arr[4] = 56;
     println!("The value of arr 5 is {}", arr[4]);
+    
     let mut arr2: [i8;10];
     arr2 = [1,2,3,4,5,6,7,8,9,0];
     println!("The value of arr2 is {:?}", arr2.len());
